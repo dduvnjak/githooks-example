@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo "****************************"
-echo "POST MEEEEEEEEEEEEEEEEEEERGE"
-echo "****************************"
+echo "*************************"
+echo "post-merge hook triggered"
+echo "*************************"
 
 echo "Trying to execute bundler..."
 if [[ `gem list | grep bundler` ]]; then
